@@ -1,6 +1,5 @@
 #inclue <stdio.h>
 int main() {
-	chat Mystring[] = "Programming is like building a multilingual puzzle"
-		puts(Mystring);
+	puts("\""Programming is like building a multilingual puzzle");
 	return 0;
 }
