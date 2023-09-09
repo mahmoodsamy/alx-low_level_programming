@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Print a quote without using print or puts function
+ * Description: Print a quote without print or puts function
  *
  * Return: 1 (failed)
  */
