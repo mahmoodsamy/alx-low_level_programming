@@ -7,7 +7,7 @@
 int main(void)
 {
     srand(time(0));
-    int n = rand() % 2000000001 - 1000000000;
+    n = rand() % 2000000001 - 1000000000;
     if (n > 0)
     {
         printf("%d is positive \n", n);
