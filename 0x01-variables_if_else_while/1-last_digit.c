@@ -8,8 +8,7 @@
  * Description: This program generates last gigit of a random number and
  *              checks if it's positive, zero, or negative.
  *
- * Return: Always 0 (Success)
-*/
+ * Return: Always 0 (Success)*/
 
 int main(void)
 {
@@ -19,10 +18,10 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	digit = n % 10;
 	if(digit < 6 && digit != 0)
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, digit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, digit );
 	else if(digit > 5)
-		printf("Last digit of %d is %d and is greater than 5\n", n, digit);
+		printf("Last digit of %d is %d and is greater than 5\n", n, digit );
 	else if(digit == 0)
-		printf("Last digit of %d is %d and is 0\n", n, digit);
+		printf("Last digit of %d is %d and is 0\n", n, digit );
 	return(0);
 }
