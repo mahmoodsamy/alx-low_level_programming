@@ -19,7 +19,6 @@ if (lower != 'e' && lower != 'q')
 putchar(lower);
 }
 lower++;
-putchar('\n');
 }
 return (0);
 }
