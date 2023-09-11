@@ -16,9 +16,10 @@ while (lower <= 'z')
 {
 if (lower != 'e' && lower != 'q')
 {
-putchar("c%\n", lower);
+putchar(lower);
 }
 lower++;
+putchar('\n');
 }
 return (0);
 }
