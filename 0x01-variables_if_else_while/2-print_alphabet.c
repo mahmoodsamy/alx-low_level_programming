@@ -10,8 +10,12 @@
 
 in main (void)
 {
-char letters;
-for (letters = 'a'; letters <= 'z'; letters++) {
-putchar(letters)
+char letters = 'a';
+while (letters <= 'z')
+{
+	putchar(letters);
+	letters++;
 }
+putchar('\n');
+return (0);
 }
