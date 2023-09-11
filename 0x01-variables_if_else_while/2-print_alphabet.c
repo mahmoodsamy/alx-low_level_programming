@@ -8,7 +8,7 @@
  * Return: Always 0 (Success)
 */
 
-in main (void)
+int main (void)
 {
 char letters = 'a';
 while (letters <= 'z')
