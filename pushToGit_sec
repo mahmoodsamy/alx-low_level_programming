@@ -1,0 +1,2 @@
+#!/bin/bash
+git add . && git commit -m "this is sec commit in C repo" && git push
