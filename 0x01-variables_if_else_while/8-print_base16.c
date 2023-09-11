@@ -24,4 +24,5 @@ putchar('a' + i - 10);
 i++;
 }
 putchar('\n');
+return (0);
 }
