@@ -1,2 +1,2 @@
 #!/bin/bash
-git add . && git commit -m "this is sec commit in C repo" && git push
+git add . && git commit -m "this is sec commit cuz somehow i feel like i have an ADHD after seeing my compiling error in C repo" && git push
