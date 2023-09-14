@@ -1,13 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
- *
- * Description: This program demonstrates how to create an infinite loop
- *              and how to avoid it.
- *
- * Return: Always 0 (Success)
- */
+* main - causes an infinite loop
+* Return: 0
+*/
 
 int main(void)
 {
@@ -17,11 +13,12 @@ int main(void)
 
 	i = 0;
 
-	/*while (i < 10)
+	/*
+	 * while (i < 10)
 	*{
 	* putchar(i);
-	}*/
+	}
+	*/
 	printf("Infinite loop avoided! \\o/\n");
-
 	return (0);
 }
