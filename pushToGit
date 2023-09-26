@@ -1,2 +1,2 @@
 #!/bin/bash
-git add . && git commit -m "this is first commit in C repo" && git push
+git add . && git commit -m "first commit in multi dimensional arrays project" && git push
