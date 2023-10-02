@@ -1,2 +1,2 @@
 #!/bin/bash
-git add . && git commit -m "_strln_recursion - return the length of a string" && git push
+git add . && git commit -m "finds factorial" && git push
