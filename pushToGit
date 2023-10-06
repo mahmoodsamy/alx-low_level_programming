@@ -1,2 +1,2 @@
 #!/bin/bash
-git add . && git commit -m " a function that concatenates two strings." && git push
+git add . && git commit -m "a function that returns a pointer to a 2 dimensional array of integers." && git push
